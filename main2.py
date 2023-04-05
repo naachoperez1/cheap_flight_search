@@ -28,7 +28,7 @@ for vuelo in buscador_ciudades.vuelos.keys():
         mensaje += f"\n{vuelo}:\n {buscador_ciudades.vuelos[vuelo][1]}"
 
 
-notification = notification_manager.NotificationManager(email_to='ignacioperez2@yahoo.com',message=mensaje)
+notification = notification_manager.NotificationManager(email_to=#### HERE GOES THE DESTINATION MAIL ####,message=mensaje)
 
 
 
