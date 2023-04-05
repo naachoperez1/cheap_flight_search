@@ -20,6 +20,6 @@ class DataManager:
             self.ciudades.append(peticion)
 
     def edit_iata_codes(self, codes):
-        # Escribe el codigo IATA para cada pais en la hoja de calculo. paris = PAR, berlin = BER, etc.
+        #  Escribe el codigo IATA para cada pais en la hoja de calculo. paris = PAR, berlin = BER, etc.
         pass
 
