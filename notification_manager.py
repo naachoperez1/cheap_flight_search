@@ -2,8 +2,8 @@ from smtplib import SMTP
 class NotificationManager:
     #This class is responsible for sending notifications with the deal flight details.
     def __init__(self, email_to, message):
-        self.email_sender = 'naachoperez11@gmail.com'
-        self.password = 'zovsakoioojcydrx'
+        self.email_sender = #### HERE GOES YOUR EMAIL ####
+        self.password =  #### HERE GOES YOUR PASSWORD ####
         self.email_receiver = email_to
         self.message = message
         self.send_mail()
