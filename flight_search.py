@@ -8,7 +8,7 @@ class FlightSearch:
         self.ciudades = ciudades
         self.TEQUILA_URL = 'https://api.tequila.kiwi.com/locations/query'
         self.TEQUILA_APIKEY = {
-            'apikey':'EIoVJfnP_b1b9FSztr7UyUqIKXwEx1Va'
+            'apikey':# here goes your apikey
         }
         precios = [int(i) for i in precios]
         self.vuelos = {f'{self.FROM_CITY} - PAR': [precios[0]],
