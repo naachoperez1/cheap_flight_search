@@ -5,9 +5,9 @@ class DataManager:
     # This class is responsible for talking to the Google Sheet.
     def __init__(self):
         self.ciudades = []
-        self.SHETTY_URL = 'https://api.sheety.co/9a590837793e0e5497070ba9f027ef65/copiaDeFlightDeals/prices'
+        self.SHETTY_URL = # here goes your sheety google sheets url
         self.header = {
-            'Authorization': 'Bearer sdfsdfasdfsdf'
+            'Authorization': # here goes your token
         }
         self.city_getter()
 
